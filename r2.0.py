@@ -11,28 +11,30 @@
 
 import os
 
-
-def find_package_json(path):
-    for root, dirs, files in os.walk(path):
-        if "package.json" in files:
-            # print("root {}, dirs {}, files {}".format(root, dirs, files))
-            return root
-    return None
-
-
 def execute_command(path):
-    os.chdir(path)
+    dir = os.path.dirname(path)
     base = os.path.basename(path)
+    os.chdir(dir)
     print("path# {}, base# {} ".format(path, base))
     os.system("/Users/huwentao/fvm/versions/1.22.6/bin/dart create " +
               base+" --force -t package-simple")
 
 
+def find_packages(path):
+    """
+    Finds all directories containing a package.json file in the specified path.
+    :param path: The path to search for package.json files.
+    :return: A list of directory paths containing package.json files.
+    """
+    package_directories = []
+    for root, dirs, files in os.walk(path):
+        if 'package.json' in files:
+            package_directories.append(os.path.abspath(root))
+    return package_directories
+
+
 if __name__ == "__main__":
-    # dir = os.getcwd()
     dir = './packages'
-    for root, dirs, files in os.walk(dir):
-        package_dir = find_package_json(root)
-        if package_dir:
-            # print("root {}, dirs {}, files {}".format(root, dirs, files))
-            execute_command(package_dir)
+    for root in find_packages(dir):
+        print("root {}".format(root))
+        execute_command(root)
