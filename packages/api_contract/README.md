@@ -1,3 +1,22 @@
-# @polkadot/api-contract
+A library for Dart developers.
 
-Interfaces to allow for the encoding and decoding of Substrate contract ABIs.
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+## Usage
+
+A simple usage example:
+
+```dart
+import 'package:api_contract/api_contract.dart';
+
+main() {
+  var awesome = new Awesome();
+}
+```
+
+## Features and bugs
+
+Please file feature requests and bugs at the [issue tracker][tracker].
+
+[tracker]: http://example.com/issues/replaceme

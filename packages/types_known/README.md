@@ -1,3 +1,22 @@
-# @polkadot/types-known
+A library for Dart developers.
 
-Specific known base type overrides (e.g. `Address`, etc) for chains & specs. This does not contain user-specfic types.
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+## Usage
+
+A simple usage example:
+
+```dart
+import 'package:types_known/types_known.dart';
+
+main() {
+  var awesome = new Awesome();
+}
+```
+
+## Features and bugs
+
+Please file feature requests and bugs at the [issue tracker][tracker].
+
+[tracker]: http://example.com/issues/replaceme

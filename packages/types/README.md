@@ -1,3 +1,22 @@
-# @polkadot/types
+A library for Dart developers.
 
-Implementation of the types and their (de-)serialisation via SCALE codec. On the Rust side, the codec types and primitive types are implemented via the [parity-codec](https://github.com/paritytech/parity-codec).
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+## Usage
+
+A simple usage example:
+
+```dart
+import 'package:types/types.dart';
+
+main() {
+  var awesome = new Awesome();
+}
+```
+
+## Features and bugs
+
+Please file feature requests and bugs at the [issue tracker][tracker].
+
+[tracker]: http://example.com/issues/replaceme
