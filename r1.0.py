@@ -1,4 +1,5 @@
 import os
+import shutil
 """
 重命名包名 - _
 """
@@ -14,7 +15,12 @@ def rename_folder(root: str = './packages'):
             old_path = os.path.join(root, dir)
             new_dir = dir.replace('-', '_')
             new_path = os.path.join(root, new_dir)
-            # 将old_path替换new_path
+            if old_path == new_path:
+                continue
+            # 将old_pRath替换new_path
+            if os.path.exists(new_path):
+                shutil.rmtree(new_path)
+            # os.removedirs(new_path)
             os.replace(old_path, new_path,)
             
             
