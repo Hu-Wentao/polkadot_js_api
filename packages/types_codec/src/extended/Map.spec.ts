@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { CodecTo } from '@polkadot/types-codec/types';
+import type { CodecTo } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { CodecMap, Text, U32 } from '@polkadot/types-codec';
+import { CodecMap, Text, U32 } from '@polkadot/types_codec';
 import { stringToU8a } from '@polkadot/util';
 
 const registry = new TypeRegistry();

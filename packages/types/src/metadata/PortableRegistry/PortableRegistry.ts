@@ -1,14 +1,14 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Option, Text, Type, u32, Vec } from '@polkadot/types-codec';
-import type { AnyString, LookupString, Registry } from '@polkadot/types-codec/types';
-import type { ILookup, TypeDef } from '@polkadot/types-create/types';
+import type { Option, Text, Type, u32, Vec } from '@polkadot/types_codec';
+import type { AnyString, LookupString, Registry } from '@polkadot/types_codec/types';
+import type { ILookup, TypeDef } from '@polkadot/types_create/types';
 import type { PortableType } from '../../interfaces/metadata/index.js';
 import type { SiField, SiLookupTypeId, SiType, SiTypeDefArray, SiTypeDefBitSequence, SiTypeDefCompact, SiTypeDefComposite, SiTypeDefSequence, SiTypeDefTuple, SiTypeDefVariant, SiTypeParameter, SiVariant } from '../../interfaces/scaleInfo/index.js';
 
-import { sanitize, Struct } from '@polkadot/types-codec';
-import { getTypeDef, TypeDefInfo, withTypeString } from '@polkadot/types-create';
+import { sanitize, Struct } from '@polkadot/types_codec';
+import { getTypeDef, TypeDefInfo, withTypeString } from '@polkadot/types_create';
 import { assertUnreachable, isNumber, isString, logger, objectSpread, stringCamelCase, stringify, stringPascalCase } from '@polkadot/util';
 
 const l = logger('PortableRegistry');

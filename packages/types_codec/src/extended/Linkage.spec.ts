@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Linkage } from '@polkadot/types-codec';
+import { Linkage } from '@polkadot/types_codec';
 
 const registry = new TypeRegistry();
 

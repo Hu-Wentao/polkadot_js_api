@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 import type { GenericExtrinsic, GenericExtrinsicEra, GenericExtrinsicPayload, GenericExtrinsicPayloadUnknown, GenericExtrinsicPayloadV4, GenericExtrinsicSignatureV4, GenericExtrinsicUnknown, GenericExtrinsicV4, GenericImmortalEra, GenericMortalEra, GenericSignerPayload } from '@polkadot/types';
-import type { Enum, U8aFixed } from '@polkadot/types-codec';
+import type { Enum, U8aFixed } from '@polkadot/types_codec';
 import type { H512 } from '@polkadot/types/interfaces/runtime';
 
 /** @name AnySignature */

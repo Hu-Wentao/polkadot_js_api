@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { BTreeMap, Bytes, Struct, U8aFixed, bool } from '@polkadot/types-codec';
+import type { BTreeMap, Bytes, Struct, U8aFixed, bool } from '@polkadot/types_codec';
 
 /** @name CheckInherentsResult */
 export interface CheckInherentsResult extends Struct {

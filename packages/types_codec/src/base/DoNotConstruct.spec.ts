@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { DoNotConstruct } from '@polkadot/types-codec';
+import { DoNotConstruct } from '@polkadot/types_codec';
 
 describe('DoNotConstruct', (): void => {
   const registry = new TypeRegistry();

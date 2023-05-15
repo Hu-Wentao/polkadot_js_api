@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { CodecTo } from '@polkadot/types-codec/types';
+import type { CodecTo } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { Bytes, Raw, Text } from '@polkadot/types-codec';
+import { Bytes, Raw, Text } from '@polkadot/types_codec';
 import { stringToU8a } from '@polkadot/util';
 
 import { perf } from '../test/performance.js';

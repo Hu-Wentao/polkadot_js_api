@@ -5,8 +5,8 @@
 // this is required to allow for ambient/previous definitions
 import '@polkadot/types/lookup';
 
-import type { BTreeMap, BitVec, Bytes, Compact, Enum, Null, Option, Result, Struct, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { BTreeMap, BitVec, Bytes, Compact, Enum, Null, Option, Result, Struct, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { EthereumAddress } from '@polkadot/types/interfaces/eth';
 import type { AccountId32, H256, PerU16 } from '@polkadot/types/interfaces/runtime';
 

@@ -4,11 +4,11 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import type { BlockNumber, VoteThreshold } from '@polkadot/types/interfaces';
-import type { AnyTupleValue, CodecTo } from '@polkadot/types-codec/types';
+import type { AnyTupleValue, CodecTo } from '@polkadot/types_codec/types';
 
 import { Metadata, TypeRegistry } from '@polkadot/types';
-import { Text, Tuple, U32, U128 } from '@polkadot/types-codec';
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import { Text, Tuple, U32, U128 } from '@polkadot/types_codec';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
 import { stringToU8a } from '@polkadot/util';
 
 describe('Tuple', (): void => {

@@ -1,11 +1,11 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyString, AnyU8a, Registry } from '@polkadot/types-codec/types';
+import type { AnyString, AnyU8a, Registry } from '@polkadot/types_codec/types';
 
-import { U8aFixed } from '@polkadot/types-codec';
+import { U8aFixed } from '@polkadot/types_codec';
 import { hexToU8a, isHex, isString, isU8a, u8aToU8a } from '@polkadot/util';
-import { ethereumEncode, isEthereumAddress } from '@polkadot/util-crypto';
+import { ethereumEncode, isEthereumAddress } from '@polkadot/util_crypto';
 
 /** @internal */
 function decodeAccountId (value: AnyU8a | AnyString): AnyU8a {

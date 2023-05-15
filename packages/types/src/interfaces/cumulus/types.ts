@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Option, Struct, U8aFixed, Vec, u32, u64 } from '@polkadot/types-codec';
+import type { Option, Struct, U8aFixed, Vec, u32, u64 } from '@polkadot/types_codec';
 import type { HeadData, OutboundHrmpMessage, RelayBlockNumber, UpwardMessage, ValidationCode } from '@polkadot/types/interfaces/parachains';
 import type { Weight } from '@polkadot/types/interfaces/runtime';
 

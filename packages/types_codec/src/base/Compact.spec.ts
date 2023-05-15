@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { CodecDate, Compact, U32 } from '@polkadot/types-codec';
+import { CodecDate, Compact, U32 } from '@polkadot/types_codec';
 import { BN } from '@polkadot/util';
 
 import { perf } from '../test/performance.js';

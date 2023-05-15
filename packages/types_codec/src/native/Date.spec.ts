@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { CodecTo } from '@polkadot/types-codec/types';
+import type { CodecTo } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { CodecDate, U64 } from '@polkadot/types-codec';
+import { CodecDate, U64 } from '@polkadot/types_codec';
 import { BN } from '@polkadot/util';
 
 describe('Date', (): void => {

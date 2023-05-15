@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { FrameSystemEventRecord } from '@polkadot/types/lookup';
-import type { Vec } from '@polkadot/types-codec';
+import type { Vec } from '@polkadot/types_codec';
 import type { BN } from '@polkadot/util';
 
 interface Changes {

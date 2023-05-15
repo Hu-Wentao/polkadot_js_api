@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 import type { GenericEthereumAccountId, GenericEthereumLookupSource } from '@polkadot/types';
-import type { Bytes, Enum, Option, Struct, U256, U64, U8aFixed, Vec, bool, f64, u32, u64 } from '@polkadot/types-codec';
+import type { Bytes, Enum, Option, Struct, U256, U64, U8aFixed, Vec, bool, f64, u32, u64 } from '@polkadot/types_codec';
 import type { BlockNumber, H160, H2048, H256, H512, H64 } from '@polkadot/types/interfaces/runtime';
 
 /** @name BlockV0 */

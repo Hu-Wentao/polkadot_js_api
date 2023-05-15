@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { CodecTo } from '@polkadot/types-codec/types';
+import type { CodecTo } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { Bool } from '@polkadot/types-codec';
+import { Bool } from '@polkadot/types_codec';
 
 describe('Bool', (): void => {
   const registry = new TypeRegistry();

@@ -3,10 +3,10 @@
 
 import type { OverrideVersionedType } from '@polkadot/types/types';
 
-import { versioned as centrifugeChain } from './centrifuge-chain.js';
+import { versioned as centrifugeChain } from './centrifuge_chain.js';
 import { versioned as kusama } from './kusama.js';
 import { versioned as node } from './node.js';
-import { versioned as nodeTemplate } from './node-template.js';
+import { versioned as nodeTemplate } from './node_template.js';
 import { versioned as polkadot } from './polkadot.js';
 import { versioned as rococo } from './rococo.js';
 import { versioned as shell } from './shell.js';

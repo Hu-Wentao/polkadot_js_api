@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyTuple, CallBase as CallBaseBase, CallFunction as CallFunctionBase, IMethod } from '@polkadot/types-codec/types';
+import type { AnyTuple, CallBase as CallBaseBase, CallFunction as CallFunctionBase, IMethod } from '@polkadot/types_codec/types';
 import type { FunctionMetadataLatest } from '../interfaces/metadata/index.js';
 import type { Call } from '../interfaces/runtime/index.js';
 import type { Registry } from './registry.js';

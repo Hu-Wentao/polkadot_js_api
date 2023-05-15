@@ -12,7 +12,7 @@ import type { ExactDerive } from './index.js';
 import { from, Observable } from 'rxjs';
 
 import { ApiRx } from '@polkadot/api';
-import { MockProvider } from '@polkadot/rpc-provider/mock';
+import { MockProvider } from '@polkadot/rpc_provider/mock';
 import { TypeRegistry } from '@polkadot/types/create';
 
 const testFunction = (api: ApiRx): any => {

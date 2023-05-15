@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Struct, u64 } from '@polkadot/types-codec';
+import type { Struct, u64 } from '@polkadot/types_codec';
 
 /** @name BlockStats */
 export interface BlockStats extends Struct {

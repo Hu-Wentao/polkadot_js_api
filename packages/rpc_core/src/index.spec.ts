@@ -3,9 +3,9 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { ProviderInterface } from '@polkadot/rpc-provider/types';
+import type { ProviderInterface } from '@polkadot/rpc_provider/types';
 
-import { MockProvider } from '@polkadot/rpc-provider/mock';
+import { MockProvider } from '@polkadot/rpc_provider/mock';
 import { TypeRegistry } from '@polkadot/types/create';
 import { isFunction } from '@polkadot/util';
 

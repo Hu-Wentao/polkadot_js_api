@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/rpc-provider authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Server, WebSocket } from 'mock-socket';
+import { Server, WebSocket } from 'mock_socket';
 
 import { stringify } from '@polkadot/util';
 

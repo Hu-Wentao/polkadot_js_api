@@ -4,7 +4,7 @@
 import type { HexString } from '@polkadot/util/types';
 
 import { promiseTracker } from '@polkadot/api/promise/decorateMethod';
-import { WebSocket } from '@polkadot/x-ws';
+import { WebSocket } from '@polkadot/x_ws';
 
 async function getWsData <T> (endpoint: string, method: 'rpc_methods' | 'state_getMetadata' | 'state_getRuntimeVersion'): Promise<T> {
   return new Promise((resolve, reject): void => {

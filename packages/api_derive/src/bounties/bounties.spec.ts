@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import type { ApiPromise } from '@polkadot/api';
-import type { SubmittableExtrinsic } from '@polkadot/api-base/types';
+import type { SubmittableExtrinsic } from '@polkadot/api_base/types';
 import type { Bytes, Option, StorageKey } from '@polkadot/types';
 import type { Bounty, BountyIndex, Proposal, ProposalIndex } from '@polkadot/types/interfaces';
 import type { Codec, InterfaceTypes } from '@polkadot/types/types';

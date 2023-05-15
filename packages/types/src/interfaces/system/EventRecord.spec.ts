@@ -8,7 +8,7 @@
 
 import json1 from '@polkadot/types-support/json/EventRecord.001.json' assert { type: 'json' };
 import json3 from '@polkadot/types-support/json/EventRecord.003.json' assert { type: 'json' };
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
 
 import { TypeRegistry } from '../../create/index.js';
 import { Metadata } from '../../metadata/index.js';

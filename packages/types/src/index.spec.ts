@@ -3,7 +3,7 @@
 
 import type { Codec } from './types/index.js';
 
-import metadataStatic from '@polkadot/types-support/metadata/static-substrate';
+import metadataStatic from '@polkadot/types_support/metadata/static_substrate';
 
 import { TypeRegistry } from './create/index.js';
 import * as definitions from './interfaces/definitions.js';

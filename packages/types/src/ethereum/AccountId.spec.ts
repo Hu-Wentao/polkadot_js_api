@@ -7,7 +7,7 @@
 
 import type { GenericEthereumAccountId as AccountId } from './AccountId.js';
 
-import { Raw } from '@polkadot/types-codec';
+import { Raw } from '@polkadot/types_codec';
 
 import { TypeRegistry } from '../create/index.js';
 

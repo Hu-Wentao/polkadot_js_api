@@ -4,9 +4,9 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
 import { u8aToHex } from '@polkadot/util';
-import { xxhashAsHex } from '@polkadot/util-crypto';
+import { xxhashAsHex } from '@polkadot/util_crypto';
 
 import { TypeRegistry } from '../../../create/index.js';
 import { Metadata } from '../../index.js';

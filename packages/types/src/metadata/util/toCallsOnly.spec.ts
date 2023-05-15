@@ -3,8 +3,8 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import staticLatest from '@polkadot/types-support/metadata/static-substrate';
-import staticV13 from '@polkadot/types-support/metadata/v13/substrate-hex';
+import staticLatest from '@polkadot/types_support/metadata/static_substrate';
+import staticV13 from '@polkadot/types_support/metadata/v13/substrate_hex';
 
 import { TypeRegistry } from '../../create/index.js';
 import { Metadata } from '../Metadata.js';

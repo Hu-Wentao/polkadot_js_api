@@ -3,11 +3,11 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/consts';
+import '@polkadot/api_base/types/consts';
 
-import type { ApiTypes, AugmentedConst } from '@polkadot/api-base/types';
-import type { Bytes, Option, Vec, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { Codec, ITuple } from '@polkadot/types-codec/types';
+import type { ApiTypes, AugmentedConst } from '@polkadot/api_base/types';
+import type { Bytes, Option, Vec, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { Codec, ITuple } from '@polkadot/types_codec/types';
 import type { Perbill, Permill, Perquintill } from '@polkadot/types/interfaces/runtime';
 import type { FrameSupportPalletId, FrameSystemLimitsBlockLength, FrameSystemLimitsBlockWeights, KusamaRuntimeRuntimeHoldReason, PalletReferendaTrackInfo, SpVersionRuntimeVersion, SpWeightsRuntimeDbWeight, SpWeightsWeightV2Weight } from '@polkadot/types/lookup';
 

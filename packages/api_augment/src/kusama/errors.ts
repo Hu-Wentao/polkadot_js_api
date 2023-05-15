@@ -3,9 +3,9 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/errors';
+import '@polkadot/api_base/types/errors';
 
-import type { ApiTypes, AugmentedError } from '@polkadot/api-base/types';
+import type { ApiTypes, AugmentedError } from '@polkadot/api_base/types';
 
 export type __AugmentedError<ApiType extends ApiTypes> = AugmentedError<ApiType>;
 

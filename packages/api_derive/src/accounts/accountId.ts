@@ -8,7 +8,7 @@ import type { DeriveApi } from '../types.js';
 import { map, of } from 'rxjs';
 
 import { assertReturn, isU8a } from '@polkadot/util';
-import { decodeAddress } from '@polkadot/util-crypto';
+import { decodeAddress } from '@polkadot/util_crypto';
 
 import { memo } from '../util/index.js';
 

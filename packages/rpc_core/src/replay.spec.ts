@@ -5,7 +5,7 @@
 
 import type { RpcInterface } from './types/index.js';
 
-import { MockProvider } from '@polkadot/rpc-provider/mock';
+import { MockProvider } from '@polkadot/rpc_provider/mock';
 import { TypeRegistry } from '@polkadot/types/create';
 
 import { RpcCore } from './index.js';

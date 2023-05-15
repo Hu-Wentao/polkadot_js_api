@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Text, Type } from '@polkadot/types-codec';
+import type { Text, Type } from '@polkadot/types_codec';
 import type { ErrorMetadataV13, EventMetadataV13, ExtrinsicMetadataV13, ExtrinsicMetadataV14, FunctionMetadataV13, MetadataV13, MetadataV14, ModuleConstantMetadataV13, ModuleMetadataV13, PalletCallMetadataV14, PalletConstantMetadataV14, PalletErrorMetadataV14, PalletEventMetadataV14, PalletMetadataV14, PalletStorageMetadataV14, StorageEntryMetadataV14, StorageEntryTypeV14, StorageHasherV13, StorageMetadataV13 } from '../../interfaces/metadata/index.js';
 import type { SiVariant } from '../../interfaces/scaleInfo/index.js';
 import type { OverrideModuleType, Registry } from '../../types/index.js';

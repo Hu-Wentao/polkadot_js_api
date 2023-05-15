@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { AugmentedCall, DeriveCustom, QueryableCalls } from '@polkadot/api-base/types';
-import type { RpcInterface } from '@polkadot/rpc-core/types';
+import type { AugmentedCall, DeriveCustom, QueryableCalls } from '@polkadot/api_base/types';
+import type { RpcInterface } from '@polkadot/rpc_core/types';
 import type { Metadata, StorageKey, Text, u64 } from '@polkadot/types';
 import type { Call, Hash, RuntimeVersion } from '@polkadot/types/interfaces';
 import type { DecoratedMeta } from '@polkadot/types/metadata/decorate/types';
@@ -17,13 +17,13 @@ import type { VersionedRegistry } from './types.js';
 
 import { BehaviorSubject, combineLatest, from, map, of, switchMap, tap, toArray } from 'rxjs';
 
-import { getAvailableDerives } from '@polkadot/api-derive';
-import { memo, RpcCore } from '@polkadot/rpc-core';
-import { WsProvider } from '@polkadot/rpc-provider';
+import { getAvailableDerives } from '@polkadot/api_derive';
+import { memo, RpcCore } from '@polkadot/rpc_core';
+import { WsProvider } from '@polkadot/rpc_provider';
 import { expandMetadata, GenericExtrinsic, typeDefinitions, TypeRegistry } from '@polkadot/types';
-import { getSpecRuntime } from '@polkadot/types-known';
+import { getSpecRuntime } from '@polkadot/types_known';
 import { arrayChunk, arrayFlatten, assertReturn, BN, compactStripLength, lazyMethod, lazyMethods, logger, nextTick, objectSpread, stringCamelCase, stringUpperFirst, u8aConcatStrict, u8aToHex } from '@polkadot/util';
-import { blake2AsHex } from '@polkadot/util-crypto';
+import { blake2AsHex } from '@polkadot/util_crypto';
 
 import { createSubmittable } from '../submittable/index.js';
 import { augmentObject } from '../util/augmentObject.js';

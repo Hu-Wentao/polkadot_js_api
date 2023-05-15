@@ -3,7 +3,7 @@
 
 import type { DefinitionCall, DefinitionRpc, DefinitionsCall, DefinitionsCallEntry, DefinitionsRpc, DefinitionsTypes, RegistryTypes } from '../types/index.js';
 
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
 
 import { getTypeDef, TypeRegistry } from '../create/index.js';
 import { Metadata } from '../metadata/index.js';

@@ -3,12 +3,12 @@
 
 // Simple non-runnable checks to test type definitions in the editor itself
 
-import '@polkadot/api-augment';
+import '@polkadot/api_augment';
 
 import type { TestKeyringMap } from '@polkadot/keyring/testingPairs';
 
 import { ApiPromise } from '@polkadot/api';
-import { BlueprintPromise, ContractPromise } from '@polkadot/api-contract';
+import { BlueprintPromise, ContractPromise } from '@polkadot/api_contract';
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
 
 import abiIncrementer from './test/contracts/ink/v0/incrementer.json' assert { type: 'json' };

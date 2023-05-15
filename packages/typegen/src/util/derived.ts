@@ -2,14 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Constructor, Registry } from '@polkadot/types/types';
-import type { UInt } from '@polkadot/types-codec';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { UInt } from '@polkadot/types_codec';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { ModuleTypes, TypeImports } from './imports.js';
 
 import { GenericAccountId, GenericCall, GenericLookupSource, GenericVote } from '@polkadot/types/generic';
 import { AllConvictions } from '@polkadot/types/interfaces/democracy/definitions';
-import { AbstractInt, bool, Compact, Enum, Null, Option, Struct, Tuple, Vec, WrapperKeepOpaque, WrapperOpaque } from '@polkadot/types-codec';
-import { getTypeDef, TypeDefInfo } from '@polkadot/types-create';
+import { AbstractInt, bool, Compact, Enum, Null, Option, Struct, Tuple, Vec, WrapperKeepOpaque, WrapperOpaque } from '@polkadot/types_codec';
+import { getTypeDef, TypeDefInfo } from '@polkadot/types_create';
 import { isChildClass, stringify } from '@polkadot/util';
 
 import { formatType } from './formatting.js';

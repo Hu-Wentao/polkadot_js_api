@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SignOptions } from '@polkadot/keyring/types';
-import type { AnyTuple, Codec, IMethod as IMethodBase, INumber, IText } from '@polkadot/types-codec/types';
+import type { AnyTuple, Codec, IMethod as IMethodBase, INumber, IText } from '@polkadot/types_codec/types';
 import type { FunctionMetadataLatest, StorageEntryMetadataLatest } from '../interfaces/metadata/index.js';
 import type { Registry } from './registry.js';
 

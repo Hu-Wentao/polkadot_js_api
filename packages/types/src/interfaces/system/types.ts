@@ -2,8 +2,8 @@
 /* eslint-disable */
 
 import type { GenericChainProperties, GenericEvent } from '@polkadot/types';
-import type { Bytes, Compact, Enum, HashMap, Option, Result, Struct, Text, U8aFixed, Vec, bool, i32, u32, u64, u8 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Compact, Enum, HashMap, Option, Result, Struct, Text, U8aFixed, Vec, bool, i32, u32, u64, u8 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { AccountData } from '@polkadot/types/interfaces/balances';
 import type { AccountId, BlockNumber, Digest, Hash, Index, Pays, Weight } from '@polkadot/types/interfaces/runtime';
 

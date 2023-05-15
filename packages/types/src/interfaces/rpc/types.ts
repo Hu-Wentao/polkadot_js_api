@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Struct, Text, Vec, u32 } from '@polkadot/types-codec';
+import type { Struct, Text, Vec, u32 } from '@polkadot/types_codec';
 
 /** @name RpcMethods */
 export interface RpcMethods extends Struct {

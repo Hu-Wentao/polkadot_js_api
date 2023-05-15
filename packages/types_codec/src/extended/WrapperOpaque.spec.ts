@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { WrapperOpaque } from '@polkadot/types-codec';
+import { WrapperOpaque } from '@polkadot/types_codec';
 import { u8aConcat } from '@polkadot/util';
 
 describe('WrapperOpaque', (): void => {

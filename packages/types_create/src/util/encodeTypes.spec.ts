@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { encodeTypeDef, TypeDefInfo } from '@polkadot/types-create';
+import { encodeTypeDef, TypeDefInfo } from '@polkadot/types_create';
 
 describe('encodeTypeDef', (): void => {
   const registry = new TypeRegistry();

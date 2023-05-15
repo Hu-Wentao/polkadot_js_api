@@ -1,8 +1,8 @@
 // Copyright 2017-2023 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { RpcInterface } from '@polkadot/rpc-core/types';
-import type { ProviderInterface } from '@polkadot/rpc-provider/types';
+import type { RpcInterface } from '@polkadot/rpc_core/types';
+import type { ProviderInterface } from '@polkadot/rpc_provider/types';
 import type { Text } from '@polkadot/types';
 import type { Hash, RuntimeVersion } from '@polkadot/types/interfaces';
 import type { Metadata } from '@polkadot/types/metadata';

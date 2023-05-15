@@ -1,15 +1,15 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ICompact, Inspect, INumber } from '@polkadot/types-codec/types';
+import type { ICompact, Inspect, INumber } from '@polkadot/types_codec/types';
 import type { StorageEntryMetadataLatest, StorageHasher } from '../../../interfaces/metadata/index.js';
 import type { StorageKey } from '../../../primitive/index.js';
 import type { StorageEntry, StorageEntryIterator } from '../../../primitive/types.js';
 import type { Registry } from '../../../types/index.js';
 
-import { Raw } from '@polkadot/types-codec';
+import { Raw } from '@polkadot/types_codec';
 import { compactAddLength, compactStripLength, isUndefined, objectSpread, stringCamelCase, u8aConcat, u8aToU8a } from '@polkadot/util';
-import { xxhashAsU8a } from '@polkadot/util-crypto';
+import { xxhashAsU8a } from '@polkadot/util_crypto';
 
 import { getSiName } from '../../util/index.js';
 import { getHasher } from './getHasher.js';

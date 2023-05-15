@@ -5,8 +5,8 @@
 // this is required to allow for ambient/previous definitions
 import '@polkadot/types/lookup';
 
-import type { Compact, Enum, Null, Struct, Vec, u16, u32 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Compact, Enum, Null, Struct, Vec, u16, u32 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { PerU16 } from '@polkadot/types/interfaces/runtime';
 
 declare module '@polkadot/types/lookup' {

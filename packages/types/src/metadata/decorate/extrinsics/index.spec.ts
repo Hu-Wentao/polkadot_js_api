@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
-import metadataStatic from '@polkadot/types-support/metadata/v13/substrate-hex';
+import metadataStatic from '@polkadot/types_support/metadata/v13/substrate_hex';
 import { BN } from '@polkadot/util';
 
 import { TypeRegistry } from '../../../create/index.js';

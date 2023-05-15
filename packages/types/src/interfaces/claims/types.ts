@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Enum } from '@polkadot/types-codec';
+import type { Enum } from '@polkadot/types_codec';
 
 /** @name StatementKind */
 export interface StatementKind extends Enum {

@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Enum, Struct, Text, Vec, bool, u128, u32 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Enum, Struct, Text, Vec, bool, u128, u32 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 
 /** @name BenchmarkBatch */
 export interface BenchmarkBatch extends Struct {

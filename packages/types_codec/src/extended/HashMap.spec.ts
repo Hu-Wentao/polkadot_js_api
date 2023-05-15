@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { HashMap, Struct, Text, U32 } from '@polkadot/types-codec';
+import { HashMap, Struct, Text, U32 } from '@polkadot/types_codec';
 import { stringToU8a } from '@polkadot/util';
 
 const registry = new TypeRegistry();

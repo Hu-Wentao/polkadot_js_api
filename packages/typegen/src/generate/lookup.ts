@@ -4,16 +4,16 @@
 import type { PortableType, SiLookupTypeId, SiPath, SiTypeParameter } from '@polkadot/types/interfaces';
 import type { PortableRegistry } from '@polkadot/types/metadata';
 import type { Registry } from '@polkadot/types/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { HexString } from '@polkadot/util/types';
 
 import Handlebars from 'handlebars';
 import path from 'node:path';
 
 import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import staticKusama from '@polkadot/types-support/metadata/static-kusama';
-import staticPolkadot from '@polkadot/types-support/metadata/static-polkadot';
-import staticSubstrate from '@polkadot/types-support/metadata/static-substrate';
+import staticKusama from '@polkadot/types_support/metadata/static_kusama';
+import staticPolkadot from '@polkadot/types_support/metadata/static_polkadot';
+import staticSubstrate from '@polkadot/types_support/metadata/static_substrate';
 import { isString, stringify } from '@polkadot/util';
 
 import { createImports, exportInterface, initMeta, readTemplate, writeFile } from '../util/index.js';

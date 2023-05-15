@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Registry } from '@polkadot/types_codec/types';
 import type { MetadataV9, MetadataV10, ModuleMetadataV9, ModuleMetadataV10, StorageEntryMetadataV9, StorageEntryTypeV9, StorageHasherV9, StorageHasherV10 } from '../../interfaces/metadata/index.js';
 
 import { objectSpread } from '@polkadot/util';

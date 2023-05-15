@@ -7,7 +7,7 @@ import type { Address, Call } from '../../interfaces/runtime/index.js';
 import type { ExtrinsicPayloadValue, IExtrinsicImpl, IKeyringPair, Registry, SignatureOptions } from '../../types/index.js';
 import type { ExtrinsicOptions } from '../types.js';
 
-import { Struct } from '@polkadot/types-codec';
+import { Struct } from '@polkadot/types_codec';
 import { isU8a } from '@polkadot/util';
 
 export const EXTRINSIC_VERSION = 4;

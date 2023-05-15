@@ -4,7 +4,7 @@
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback, ProviderInterfaceEmitCb, ProviderInterfaceEmitted, ProviderStats } from '../types.js';
 
 import { logger, noop } from '@polkadot/util';
-import { fetch } from '@polkadot/x-fetch';
+import { fetch } from '@polkadot/x_fetch';
 
 import { RpcCoder } from '../coder/index.js';
 import defaults from '../defaults.js';
@@ -26,7 +26,7 @@ const l = logger('api-http');
  *
  * ```javascript
  * import Api from '@polkadot/api/promise';
- * import { HttpProvider } from '@polkadot/rpc-provider';
+ * import { HttpProvider } from '@polkadot/rpc_provider';
  *
  * const provider = new HttpProvider('http://127.0.0.1:9933');
  * const api = new Api(provider);

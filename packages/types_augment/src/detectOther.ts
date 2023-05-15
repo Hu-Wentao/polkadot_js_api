@@ -2,6 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { packageInfo as typesInfo } from '@polkadot/types/packageInfo';
-import { packageInfo as codecInfo } from '@polkadot/types-codec/packageInfo';
+import { packageInfo as codecInfo } from '@polkadot/types_codec/packageInfo';
 
 export default [typesInfo, codecInfo];

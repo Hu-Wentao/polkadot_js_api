@@ -5,8 +5,8 @@ import type { Observable } from 'rxjs';
 import type { Data } from '@polkadot/types';
 import type { AccountId } from '@polkadot/types/interfaces';
 import type { PalletIdentityIdentityInfo, PalletIdentityRegistration } from '@polkadot/types/lookup';
-import type { Option } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Option } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { DeriveAccountRegistration, DeriveApi, DeriveHasIdentity } from '../types.js';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

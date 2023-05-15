@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Compact, Enum, Null, Option, Raw, Result, Set, Struct, Text, U8aFixed, bool, u32, u64, u8 } from '@polkadot/types-codec';
+import type { Bytes, Compact, Enum, Null, Option, Raw, Result, Set, Struct, Text, U8aFixed, bool, u32, u64, u8 } from '@polkadot/types_codec';
 import type { AccountId, Balance, BlockNumber, Hash, Weight, WeightV2 } from '@polkadot/types/interfaces/runtime';
 import type { DispatchError } from '@polkadot/types/interfaces/system';
 

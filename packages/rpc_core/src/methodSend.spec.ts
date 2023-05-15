@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { ProviderInterface } from '@polkadot/rpc-provider/types';
+import type { ProviderInterface } from '@polkadot/rpc_provider/types';
 import type { DefinitionRpc } from '@polkadot/types/types';
 
 import { TypeRegistry } from '@polkadot/types/create';

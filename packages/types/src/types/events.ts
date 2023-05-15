@@ -1,8 +1,8 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec } from '@polkadot/types-codec/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { Codec } from '@polkadot/types_codec/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { EventMetadataLatest } from '../interfaces/metadata/index.js';
 import type { Hash } from '../interfaces/runtime/index.js';
 import type { EventId, Phase } from '../interfaces/system/index.js';

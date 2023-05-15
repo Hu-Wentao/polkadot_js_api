@@ -7,7 +7,7 @@ import type { Codec, Registry } from '@polkadot/types/types';
 import type { AbiConstructor, AbiEvent, AbiMessage, AbiParam, DecodedEvent, DecodedMessage } from '../types.js';
 
 import { TypeRegistry } from '@polkadot/types';
-import { TypeDefInfo } from '@polkadot/types-create';
+import { TypeDefInfo } from '@polkadot/types_create';
 import { assertReturn, compactAddLength, compactStripLength, isNumber, isObject, isString, logger, stringCamelCase, stringify, u8aConcat, u8aToHex } from '@polkadot/util';
 
 import { convertVersions, enumVersions } from './toLatest.js';

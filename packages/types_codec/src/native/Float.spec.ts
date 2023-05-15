@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { F32, F64 } from '@polkadot/types-codec';
+import { F32, F64 } from '@polkadot/types_codec';
 
 describe('Float', (): void => {
   const registry = new TypeRegistry();

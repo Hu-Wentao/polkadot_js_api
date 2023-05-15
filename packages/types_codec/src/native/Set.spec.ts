@@ -6,7 +6,7 @@
 /* eslint-disable sort-keys */
 
 import { TypeRegistry } from '@polkadot/types';
-import { CodecSet } from '@polkadot/types-codec';
+import { CodecSet } from '@polkadot/types_codec';
 
 // TODO actually import these from definitions, don't re-define here
 const SET_FIELDS = {

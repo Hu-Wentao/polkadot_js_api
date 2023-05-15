@@ -4,12 +4,12 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import type { PropIndex } from '@polkadot/types/interfaces/democracy';
-import type { Codec, CodecTo, ITuple } from '@polkadot/types-codec/types';
+import type { Codec, CodecTo, ITuple } from '@polkadot/types_codec/types';
 
 import { createTypeUnsafe, GenericAccountId as AccountId, Metadata, TypeRegistry } from '@polkadot/types';
-import { Text, u32, Vec } from '@polkadot/types-codec';
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
-import { decodeAddress, randomAsU8a } from '@polkadot/util-crypto';
+import { Text, u32, Vec } from '@polkadot/types_codec';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
+import { decodeAddress, randomAsU8a } from '@polkadot/util_crypto';
 
 import { perf } from '../test/performance.js';
 

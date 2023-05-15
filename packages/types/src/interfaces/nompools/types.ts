@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Enum, u32 } from '@polkadot/types-codec';
+import type { Enum, u32 } from '@polkadot/types_codec';
 
 /** @name NpApiError */
 export interface NpApiError extends Enum {

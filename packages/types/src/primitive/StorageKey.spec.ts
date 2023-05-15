@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import rpcDataV11 from '@polkadot/types-support/metadata/v11/substrate-hex';
+import rpcDataV11 from '@polkadot/types_support/metadata/v11/substrate_hex';
 
 import { TypeRegistry } from '../create/index.js';
 import { decorateStorage, Metadata } from '../metadata/index.js';

@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import { typeSplit } from '@polkadot/types-create';
+import { typeSplit } from '@polkadot/types_create';
 
 describe('typeSplit', (): void => {
   it('splits simple types into an array', (): void => {

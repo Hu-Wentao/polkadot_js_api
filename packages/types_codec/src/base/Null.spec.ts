@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Null } from '@polkadot/types-codec';
+import { Null } from '@polkadot/types_codec';
 
 describe('Null', (): void => {
   const registry = new TypeRegistry();

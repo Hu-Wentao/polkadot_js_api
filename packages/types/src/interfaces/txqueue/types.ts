@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Enum, Result, Struct, Vec, bool } from '@polkadot/types-codec';
+import type { Enum, Result, Struct, Vec, bool } from '@polkadot/types_codec';
 import type { TransactionLongevity, TransactionPriority, TransactionTag } from '@polkadot/types/interfaces/runtime';
 import type { TransactionValidityError } from '@polkadot/types/interfaces/system';
 

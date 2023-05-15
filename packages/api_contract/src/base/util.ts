@@ -11,7 +11,7 @@ import type { BlueprintDeploy, ContractGeneric } from './types.js';
 
 import { Bytes } from '@polkadot/types';
 import { bnToBn, compactAddLength, u8aToU8a } from '@polkadot/util';
-import { randomAsU8a } from '@polkadot/util-crypto';
+import { randomAsU8a } from '@polkadot/util_crypto';
 
 export const EMPTY_SALT = new Uint8Array();
 

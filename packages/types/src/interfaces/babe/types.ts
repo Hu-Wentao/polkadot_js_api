@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Enum, Option, Struct, U8aFixed, Vec, bool, u32, u64 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Enum, Option, Struct, U8aFixed, Vec, bool, u32, u64 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { AuthorityId } from '@polkadot/types/interfaces/consensus';
 import type { Hash, Header, Slot } from '@polkadot/types/interfaces/runtime';
 

@@ -4,7 +4,7 @@
 import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { Hash } from '@polkadot/types/interfaces';
 import type { ChainUpgradeVersion, CodecHasher, DefinitionRpc, DefinitionRpcSub, DefinitionsCall, OverrideModuleType, OverrideVersionedType, Registry, RegistryTypes } from '@polkadot/types/types';
-import type { Text } from '@polkadot/types-codec';
+import type { Text } from '@polkadot/types_codec';
 import type { BN } from '@polkadot/util';
 
 import { bnToBn } from '@polkadot/util';

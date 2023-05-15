@@ -7,8 +7,8 @@ import type { EndpointStats, JsonRpcResponse, ProviderInterface, ProviderInterfa
 import { EventEmitter } from 'eventemitter3';
 
 import { isChildClass, isNull, isUndefined, logger, objectSpread } from '@polkadot/util';
-import { xglobal } from '@polkadot/x-global';
-import { WebSocket } from '@polkadot/x-ws';
+import { xglobal } from '@polkadot/x_global';
+import { WebSocket } from '@polkadot/x_ws';
 
 import { RpcCoder } from '../coder/index.js';
 import defaults from '../defaults.js';
@@ -74,7 +74,7 @@ function defaultEndpointStats (): EndpointStats {
  *
  * ```javascript
  * import Api from '@polkadot/api/promise';
- * import { WsProvider } from '@polkadot/rpc-provider/ws';
+ * import { WsProvider } from '@polkadot/rpc_provider/ws';
  *
  * const provider = new WsProvider('ws://127.0.0.1:9944');
  * const api = new Api(provider);

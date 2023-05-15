@@ -10,7 +10,7 @@ import type { DeriveApi } from '../types.js';
 import { map } from 'rxjs';
 
 import { u8aConcat, u8aToHex } from '@polkadot/util';
-import { blake2AsU8a } from '@polkadot/util-crypto';
+import { blake2AsU8a } from '@polkadot/util_crypto';
 
 import { memo } from '../util/index.js';
 

@@ -3,11 +3,11 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/events';
+import '@polkadot/api_base/types/events';
 
-import type { ApiTypes, AugmentedEvent } from '@polkadot/api-base/types';
-import type { Bytes, Null, Option, Result, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { ApiTypes, AugmentedEvent } from '@polkadot/api_base/types';
+import type { Bytes, Null, Option, Result, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { EthereumAddress } from '@polkadot/types/interfaces/eth';
 import type { AccountId32, H256, Perbill } from '@polkadot/types/interfaces/runtime';
 import type { FrameSupportDispatchDispatchInfo, FrameSupportDispatchPostDispatchInfo, FrameSupportPreimagesBounded, FrameSupportTokensMiscBalanceStatus, PalletConvictionVotingTally, PalletDemocracyMetadataOwner, PalletDemocracyVoteAccountVote, PalletDemocracyVoteThreshold, PalletElectionProviderMultiPhaseElectionCompute, PalletElectionProviderMultiPhasePhase, PalletImOnlineSr25519AppSr25519Public, PalletMultisigTimepoint, PalletNominationPoolsCommissionChangeRate, PalletNominationPoolsPoolState, PalletStakingExposure, PalletStakingForcing, PalletStakingValidatorPrefs, PolkadotParachainPrimitivesHrmpChannelId, PolkadotPrimitivesV4CandidateReceipt, PolkadotRuntimeParachainsDisputesDisputeLocation, PolkadotRuntimeParachainsDisputesDisputeResult, PolkadotRuntimeProxyType, SpConsensusGrandpaAppPublic, SpNposElectionsElectionScore, SpRuntimeDispatchError, SpRuntimeDispatchErrorWithPostInfo, SpWeightsWeightV2Weight, XcmV3MultiLocation, XcmV3MultiassetMultiAssets, XcmV3Response, XcmV3TraitsError, XcmV3TraitsOutcome, XcmV3Xcm, XcmVersionedMultiAssets, XcmVersionedMultiLocation } from '@polkadot/types/lookup';

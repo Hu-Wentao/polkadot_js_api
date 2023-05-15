@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { stringToU8a } from '@polkadot/util';
-import { xxhashAsU8a } from '@polkadot/util-crypto';
+import { xxhashAsU8a } from '@polkadot/util_crypto';
 
 import { TypeRegistry } from '../../../create/index.js';
 import { getHasher } from './getHasher.js';

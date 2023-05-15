@@ -6,7 +6,7 @@ import type { SubmittableExtrinsic } from '@polkadot/api/submittable/types';
 import type { ApiTypes, DecorateMethod } from '@polkadot/api/types';
 import type { AccountId, EventRecord } from '@polkadot/types/interfaces';
 import type { ISubmittableResult } from '@polkadot/types/types';
-import type { Codec } from '@polkadot/types-codec/types';
+import type { Codec } from '@polkadot/types_codec/types';
 import type { Abi } from '../Abi/index.js';
 import type { AbiConstructor, BlueprintOptions } from '../types.js';
 import type { MapConstructorExec } from './types.js';

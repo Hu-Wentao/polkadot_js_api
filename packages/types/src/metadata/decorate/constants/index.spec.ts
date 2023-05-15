@@ -7,8 +7,8 @@ import type { HexString } from '@polkadot/util/types';
 import type { BlockNumber } from '../../../interfaces/index.js';
 import type { Constants } from '../types.js';
 
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
-import rpcMetadataV10 from '@polkadot/types-support/metadata/v10/substrate-hex';
+import rpcMetadata from '@polkadot/types_support/metadata/static_substrate';
+import rpcMetadataV10 from '@polkadot/types_support/metadata/v10/substrate_hex';
 
 import { TypeRegistry } from '../../../create/index.js';
 import { Metadata } from '../../Metadata.js';

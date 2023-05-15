@@ -5,7 +5,7 @@ import * as codecClasses from '@polkadot/types/codec';
 import * as extrinsicClasses from '@polkadot/types/extrinsic';
 import * as genericClasses from '@polkadot/types/generic';
 import * as primitiveClasses from '@polkadot/types/primitive';
-import { getTypeDef, TypeDefInfo } from '@polkadot/types-create';
+import { getTypeDef, TypeDefInfo } from '@polkadot/types_create';
 
 export interface ModuleTypes {
   types: Record<string, unknown>;

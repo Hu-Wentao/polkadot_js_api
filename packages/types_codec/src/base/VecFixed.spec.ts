@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Text, u16, VecFixed } from '@polkadot/types-codec';
+import { Text, u16, VecFixed } from '@polkadot/types_codec';
 import { stringToU8a } from '@polkadot/util';
 
 describe('VecFixed', (): void => {

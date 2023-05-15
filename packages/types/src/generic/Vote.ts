@@ -1,12 +1,12 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson, Registry } from '@polkadot/types-codec/types';
+import type { AnyJson, Registry } from '@polkadot/types_codec/types';
 import type { AllConvictions } from '../interfaces/democracy/definitions.js';
 import type { Conviction } from '../interfaces/democracy/index.js';
 import type { ArrayElementType } from '../types/index.js';
 
-import { Bool, U8aFixed } from '@polkadot/types-codec';
+import { Bool, U8aFixed } from '@polkadot/types_codec';
 import { isBoolean, isNumber, isU8a, isUndefined } from '@polkadot/util';
 
 interface VoteType {

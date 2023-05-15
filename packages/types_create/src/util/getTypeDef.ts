@@ -1,10 +1,10 @@
 // Copyright 2017-2023 @polkadot/types-create authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyString } from '@polkadot/types-codec/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { AnyString } from '@polkadot/types_codec/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 
-import { sanitize } from '@polkadot/types-codec';
+import { sanitize } from '@polkadot/types_codec';
 import { isNumber, isString, objectSpread } from '@polkadot/util';
 
 import { TypeDefInfo } from '../types/index.js';

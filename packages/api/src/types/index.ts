@@ -1,14 +1,14 @@
 // Copyright 2017-2023 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ApiTypes, DeriveCustom, QueryableStorageMulti } from '@polkadot/api-base/types';
-import type { ApiInterfaceRx as ApiInterfaceBase } from '@polkadot/api-base/types/api';
-import type { QueryableCalls } from '@polkadot/api-base/types/calls';
-import type { QueryableConsts } from '@polkadot/api-base/types/consts';
-import type { DecoratedErrors } from '@polkadot/api-base/types/errors';
-import type { DecoratedEvents } from '@polkadot/api-base/types/events';
-import type { QueryableStorage } from '@polkadot/api-base/types/storage';
-import type { ProviderInterface, ProviderInterfaceEmitted } from '@polkadot/rpc-provider/types';
+import type { ApiTypes, DeriveCustom, QueryableStorageMulti } from '@polkadot/api_base/types';
+import type { ApiInterfaceRx as ApiInterfaceBase } from '@polkadot/api_base/types/api';
+import type { QueryableCalls } from '@polkadot/api_base/types/calls';
+import type { QueryableConsts } from '@polkadot/api_base/types/consts';
+import type { DecoratedErrors } from '@polkadot/api_base/types/errors';
+import type { DecoratedEvents } from '@polkadot/api_base/types/events';
+import type { QueryableStorage } from '@polkadot/api_base/types/storage';
+import type { ProviderInterface, ProviderInterfaceEmitted } from '@polkadot/rpc_provider/types';
 import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { Call, Extrinsic, Hash, RuntimeVersionPartial } from '@polkadot/types/interfaces';
 import type { CallFunction, DefinitionRpc, DefinitionRpcSub, DefinitionsCall, RegisteredTypes, Registry, RegistryError, SignatureOptions, Signer } from '@polkadot/types/types';

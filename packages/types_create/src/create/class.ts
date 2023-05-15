@@ -1,10 +1,10 @@
 // Copyright 2017-2023 @polkadot/types-create authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec, CodecClass, LookupString, Registry, U8aBitLength, UIntBitLength } from '@polkadot/types-codec/types';
+import type { Codec, CodecClass, LookupString, Registry, U8aBitLength, UIntBitLength } from '@polkadot/types_codec/types';
 import type { TypeDef } from '../types/index.js';
 
-import { BTreeMap, BTreeSet, Bytes, CodecSet, Compact, DoNotConstruct, Enum, HashMap, Int, Null, Option, Range, RangeInclusive, Result, Struct, Tuple, U8aFixed, UInt, Vec, VecFixed, WrapperKeepOpaque, WrapperOpaque } from '@polkadot/types-codec';
+import { BTreeMap, BTreeSet, Bytes, CodecSet, Compact, DoNotConstruct, Enum, HashMap, Int, Null, Option, Range, RangeInclusive, Result, Struct, Tuple, U8aFixed, UInt, Vec, VecFixed, WrapperKeepOpaque, WrapperOpaque } from '@polkadot/types_codec';
 import { isNumber, stringify } from '@polkadot/util';
 
 import { TypeDefInfo } from '../types/index.js';

@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Option, Struct, U8aFixed, Vec, u32, u64 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Option, Struct, U8aFixed, Vec, u32, u64 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { AuthorityId } from '@polkadot/types/interfaces/consensus';
 import type { EcdsaSignature, Signature } from '@polkadot/types/interfaces/extrinsics';
 import type { BlockNumber, H256 } from '@polkadot/types/interfaces/runtime';

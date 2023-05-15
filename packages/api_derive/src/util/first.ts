@@ -6,7 +6,7 @@ import type { DeriveApi } from '../types.js';
 
 import { map } from 'rxjs';
 
-import { memo } from '@polkadot/rpc-core';
+import { memo } from '@polkadot/rpc_core';
 
 export function firstObservable <T> (obs: Observable<T[]>): Observable<T> {
   return obs.pipe(map(([a]) => a));

@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Registry } from '@polkadot/types_codec/types';
 import type { Check } from './types.js';
 
 import fs from 'node:fs';

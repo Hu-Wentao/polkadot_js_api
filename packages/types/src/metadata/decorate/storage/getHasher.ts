@@ -5,7 +5,7 @@ import type { StorageHasher } from '../../../interfaces/index.js';
 import type { AllHashers } from '../../../interfaces/metadata/definitions.js';
 
 import { u8aConcat, u8aToU8a } from '@polkadot/util';
-import { blake2AsU8a, xxhashAsU8a } from '@polkadot/util-crypto';
+import { blake2AsU8a, xxhashAsU8a } from '@polkadot/util_crypto';
 
 export type HasherInput = string | Buffer | Uint8Array;
 

@@ -2,14 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { AnyString, Registry } from '@polkadot/types/types';
-import type { LookupString } from '@polkadot/types-codec/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { LookupString } from '@polkadot/types_codec/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { ModuleTypes, TypeImports } from './imports.js';
 
 import Handlebars from 'handlebars';
 
-import * as typesCodec from '@polkadot/types-codec';
-import { getTypeDef, paramsNotation, TypeDefInfo } from '@polkadot/types-create';
+import * as typesCodec from '@polkadot/types_codec';
+import { getTypeDef, paramsNotation, TypeDefInfo } from '@polkadot/types_create';
 import { isString, stringify } from '@polkadot/util';
 
 import { readTemplate } from './file.js';

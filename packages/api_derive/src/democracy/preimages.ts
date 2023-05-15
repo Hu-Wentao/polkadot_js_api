@@ -4,8 +4,8 @@
 import type { Observable } from 'rxjs';
 import type { AccountId, Balance, BlockNumber, Call, Hash, PreimageStatus } from '@polkadot/types/interfaces';
 import type { FrameSupportPreimagesBounded, PalletPreimageRequestStatus } from '@polkadot/types/lookup';
-import type { Bytes, Option } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Option } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { HexString } from '@polkadot/util/types';
 import type { DeriveApi, DeriveProposalImage } from '../types.js';
 

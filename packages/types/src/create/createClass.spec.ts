@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import { TypeDefInfo } from '@polkadot/types-create';
+import { TypeDefInfo } from '@polkadot/types_create';
 
 import { createClass, getTypeClass, TypeRegistry } from './index.js';
 

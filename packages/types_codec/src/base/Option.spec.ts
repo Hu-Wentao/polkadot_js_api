@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { bool, Bytes, Null, Option, Text, U32 } from '@polkadot/types-codec';
+import { bool, Bytes, Null, Option, Text, U32 } from '@polkadot/types_codec';
 
 const registry = new TypeRegistry();
 

@@ -3,11 +3,11 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/calls';
+import '@polkadot/api_base/types/calls';
 
-import type { ApiTypes, AugmentedCall, DecoratedCallBase } from '@polkadot/api-base/types';
-import type { Bytes, Null, Option, Result, Vec, bool, u32 } from '@polkadot/types-codec';
-import type { AnyNumber, IMethod, ITuple } from '@polkadot/types-codec/types';
+import type { ApiTypes, AugmentedCall, DecoratedCallBase } from '@polkadot/api_base/types';
+import type { Bytes, Null, Option, Result, Vec, bool, u32 } from '@polkadot/types_codec';
+import type { AnyNumber, IMethod, ITuple } from '@polkadot/types_codec/types';
 import type { BabeEquivocationProof, BabeGenesisConfiguration, Epoch, OpaqueKeyOwnershipProof } from '@polkadot/types/interfaces/babe';
 import type { BeefyEquivocationProof, ValidatorSet, ValidatorSetId } from '@polkadot/types/interfaces/beefy';
 import type { CheckInherentsResult, InherentData } from '@polkadot/types/interfaces/blockbuilder';

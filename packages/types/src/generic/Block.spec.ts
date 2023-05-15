@@ -9,7 +9,7 @@
 import type { BlockValue } from './Block.js';
 
 import block00300 from '@polkadot/types-support/json/SignedBlock.003.00.json' assert { type: 'json' };
-import metadataStatic from '@polkadot/types-support/metadata/static-substrate';
+import metadataStatic from '@polkadot/types_support/metadata/static_substrate';
 
 import { TypeRegistry } from '../create/index.js';
 import { Metadata } from '../metadata/index.js';

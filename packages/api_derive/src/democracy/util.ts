@@ -3,7 +3,7 @@
 
 import type { Hash, ReferendumInfoTo239, Tally } from '@polkadot/types/interfaces';
 import type { FrameSupportPreimagesBounded, PalletDemocracyReferendumInfo, PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@polkadot/types/lookup';
-import type { Option } from '@polkadot/types-codec';
+import type { Option } from '@polkadot/types_codec';
 import type { HexString } from '@polkadot/util/types';
 import type { DeriveReferendum, DeriveReferendumVote, DeriveReferendumVotes, DeriveReferendumVoteState } from '../types.js';
 

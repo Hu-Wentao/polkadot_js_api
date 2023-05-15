@@ -3,9 +3,9 @@
 
 import type { HexString } from '@polkadot/util/types';
 
-import kusama from '@polkadot/types-support/metadata/static-kusama';
-import polkadot from '@polkadot/types-support/metadata/static-polkadot';
-import substrate from '@polkadot/types-support/metadata/static-substrate';
+import kusama from '@polkadot/types_support/metadata/static_kusama';
+import polkadot from '@polkadot/types_support/metadata/static_polkadot';
+import substrate from '@polkadot/types_support/metadata/static_substrate';
 
 import { generateDefaultConsts, generateDefaultErrors, generateDefaultEvents, generateDefaultInterface, generateDefaultLookup, generateDefaultQuery, generateDefaultRpc, generateDefaultRuntime, generateDefaultTsDef, generateDefaultTx } from './generate/index.js';
 

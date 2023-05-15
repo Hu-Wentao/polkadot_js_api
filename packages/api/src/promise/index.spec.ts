@@ -8,7 +8,7 @@ import type { SubmittableExtrinsic } from '../types/index.js';
 
 import { createPair } from '@polkadot/keyring/pair';
 import { createTestKeyring } from '@polkadot/keyring/testing';
-import { MockProvider } from '@polkadot/rpc-provider/mock';
+import { MockProvider } from '@polkadot/rpc_provider/mock';
 import { TypeRegistry } from '@polkadot/types';
 import { hexToU8a } from '@polkadot/util';
 

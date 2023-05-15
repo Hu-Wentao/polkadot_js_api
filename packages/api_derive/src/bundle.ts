@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { DeriveCustom } from '@polkadot/api-base/types';
+import type { DeriveCustom } from '@polkadot/api_base/types';
 import type { AnyFunction, AnyString } from '@polkadot/types/types';
 import type { ExactDerive } from './derive.js';
 import type { DeriveApi } from './types.js';

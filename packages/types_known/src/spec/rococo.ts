@@ -5,7 +5,7 @@
 
 import type { OverrideVersionedType } from '@polkadot/types/types';
 
-import { mapXcmTypes } from '@polkadot/types-create';
+import { mapXcmTypes } from '@polkadot/types_create';
 
 // structs need to be in order
 /* eslint-disable sort-keys */

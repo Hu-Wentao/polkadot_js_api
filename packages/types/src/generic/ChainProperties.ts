@@ -1,11 +1,11 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Option, Text, u32, Vec } from '@polkadot/types-codec';
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Option, Text, u32, Vec } from '@polkadot/types_codec';
+import type { Registry } from '@polkadot/types_codec/types';
 import type { Codec } from '../types/index.js';
 
-import { Json } from '@polkadot/types-codec';
+import { Json } from '@polkadot/types_codec';
 import { isFunction, isNull, isUndefined } from '@polkadot/util';
 
 function createValue (registry: Registry, type: string, value: unknown, asArray = true): Option<Codec> {

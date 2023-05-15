@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Registry } from '@polkadot/types/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { ModuleTypes } from '../util/imports.js';
 import type { TypeImports } from '../util/index.js';
 
@@ -11,7 +11,7 @@ import path from 'node:path';
 
 import { TypeRegistry } from '@polkadot/types/create';
 import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import { getTypeDef, TypeDefInfo } from '@polkadot/types-create';
+import { getTypeDef, TypeDefInfo } from '@polkadot/types_create';
 import { assert, isString, stringify, stringPascalCase } from '@polkadot/util';
 
 import { createImports, exportInterface, formatType, readTemplate, setImports, writeFile } from '../util/index.js';

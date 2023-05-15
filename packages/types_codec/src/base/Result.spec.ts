@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Result, Text, u32 } from '@polkadot/types-codec';
+import { Result, Text, u32 } from '@polkadot/types_codec';
 import { hexToString } from '@polkadot/util';
 
 describe('Result', (): void => {

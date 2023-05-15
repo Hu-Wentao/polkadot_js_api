@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 import type { GenericVote } from '@polkadot/types';
-import type { Compact, Enum, Struct, u32 } from '@polkadot/types-codec';
+import type { Compact, Enum, Struct, u32 } from '@polkadot/types_codec';
 import type { AccountId, Balance } from '@polkadot/types/interfaces/runtime';
 
 /** @name ApprovalFlag */

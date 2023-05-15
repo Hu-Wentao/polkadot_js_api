@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { AnyU8a, CodecTo } from '@polkadot/types-codec/types';
+import type { AnyU8a, CodecTo } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { Raw } from '@polkadot/types-codec';
+import { Raw } from '@polkadot/types_codec';
 
 const registry = new TypeRegistry();
 

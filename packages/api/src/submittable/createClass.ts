@@ -6,7 +6,7 @@
 import type { Observable } from 'rxjs';
 import type { Address, ApplyExtrinsicResult, Call, Extrinsic, ExtrinsicEra, ExtrinsicStatus, Hash, Header, Index, RuntimeDispatchInfo, SignerPayload } from '@polkadot/types/interfaces';
 import type { Callback, Codec, Constructor, ISubmittableResult, SignatureOptions } from '@polkadot/types/types';
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Registry } from '@polkadot/types_codec/types';
 import type { ApiBase } from '../base/index.js';
 import type { ApiInterfaceRx, ApiTypes, PromiseOrObs, SignerResult } from '../types/index.js';
 import type { AddressOrPair, SignerOptions, SubmittableDryRunResult, SubmittableExtrinsic, SubmittablePaymentResult, SubmittableResultResult, SubmittableResultSubscription } from './types.js';

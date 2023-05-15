@@ -1,11 +1,11 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Inspect, Registry } from '@polkadot/types-codec/types';
+import type { Inspect, Registry } from '@polkadot/types_codec/types';
 
-import { Enum } from '@polkadot/types-codec';
+import { Enum } from '@polkadot/types_codec';
 import { isBn, isNumber, isString, isU8a } from '@polkadot/util';
-import { decodeAddress } from '@polkadot/util-crypto';
+import { decodeAddress } from '@polkadot/util_crypto';
 
 import { GenericAccountId } from './AccountId.js';
 import { GenericAccountIndex } from './AccountIndex.js';

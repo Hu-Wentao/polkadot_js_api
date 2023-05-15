@@ -10,7 +10,7 @@ import path from 'node:path';
 import process from 'node:process';
 
 import { TypeDefInfo } from '@polkadot/types/types';
-import { blake2AsHex } from '@polkadot/util-crypto';
+import { blake2AsHex } from '@polkadot/util_crypto';
 
 import abis from '../test/contracts/index.js';
 import { Abi } from './index.js';

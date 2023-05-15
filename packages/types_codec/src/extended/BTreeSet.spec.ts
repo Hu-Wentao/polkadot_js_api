@@ -3,11 +3,11 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { CodecClass, CodecTo } from '@polkadot/types-codec/types';
+import type { CodecClass, CodecTo } from '@polkadot/types_codec/types';
 import type { ITuple } from '../types/interfaces.js';
 
 import { TypeRegistry } from '@polkadot/types';
-import { BTreeSet, Enum, I32, Struct, Text, Tuple, U32 } from '@polkadot/types-codec';
+import { BTreeSet, Enum, I32, Struct, Text, Tuple, U32 } from '@polkadot/types_codec';
 
 const registry = new TypeRegistry();
 

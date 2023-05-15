@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { U8aFixed } from '@polkadot/types-codec';
+import { U8aFixed } from '@polkadot/types_codec';
 
 describe('U8aFixed', (): void => {
   const registry = new TypeRegistry();

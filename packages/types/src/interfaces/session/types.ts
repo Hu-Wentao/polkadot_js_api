@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Struct, U8aFixed, Vec, u32 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Struct, U8aFixed, Vec, u32 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { AccountId, ValidatorId } from '@polkadot/types/interfaces/runtime';
 import type { Exposure } from '@polkadot/types/interfaces/staking';
 

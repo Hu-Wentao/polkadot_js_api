@@ -1,8 +1,8 @@
 // Copyright 2017-2023 @polkadot/types-create authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Registry } from '@polkadot/types-codec/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { Registry } from '@polkadot/types_codec/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 
 import { isNumber, isUndefined, objectSpread, stringify } from '@polkadot/util';
 

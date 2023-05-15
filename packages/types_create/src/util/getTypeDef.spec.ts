@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { getTypeDef, TypeDefInfo } from '@polkadot/types-create';
+import { getTypeDef, TypeDefInfo } from '@polkadot/types_create';
 
 describe('getTypeDef', (): void => {
   it('maps empty tuples to empty tuple', (): void => {

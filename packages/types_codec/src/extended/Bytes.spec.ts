@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Bytes } from '@polkadot/types-codec';
+import { Bytes } from '@polkadot/types_codec';
 
 describe('Bytes', (): void => {
   const registry = new TypeRegistry();

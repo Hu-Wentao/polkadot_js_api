@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { BTreeMap, BitVec, Bytes, Enum, Option, Struct, U8aFixed, Vec, bool, u32, u64 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { BTreeMap, BitVec, Bytes, Enum, Option, Struct, U8aFixed, Vec, bool, u32, u64 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { Signature } from '@polkadot/types/interfaces/extrinsics';
 import type { AccountId, Balance, BalanceOf, BlockNumber, H256, Hash, Header, StorageProof, ValidatorId, Weight } from '@polkadot/types/interfaces/runtime';
 import type { MembershipProof, SessionIndex } from '@polkadot/types/interfaces/session';

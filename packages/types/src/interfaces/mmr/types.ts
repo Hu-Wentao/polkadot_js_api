@@ -1,7 +1,7 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Enum, Struct, Vec, u64 } from '@polkadot/types-codec';
+import type { Bytes, Enum, Struct, Vec, u64 } from '@polkadot/types_codec';
 import type { BlockHash } from '@polkadot/types/interfaces/chain';
 import type { Hash } from '@polkadot/types/interfaces/runtime';
 

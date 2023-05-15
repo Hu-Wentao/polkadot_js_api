@@ -3,10 +3,10 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/types-codec/types/registry';
+import '@polkadot/types_codec/types/registry';
 
-import type { Codec, CodecClass, ICompact, INumber, LookupString } from '@polkadot/types-codec/types';
-import type { ILookup, TypeDef } from '@polkadot/types-create/types';
+import type { Codec, CodecClass, ICompact, INumber, LookupString } from '@polkadot/types_codec/types';
+import type { ILookup, TypeDef } from '@polkadot/types_create/types';
 
 declare module '@polkadot/types-codec/types/registry' {
   interface Registry {

@@ -1,10 +1,10 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import '@polkadot/types-augment';
+import '@polkadot/types_augment';
 
-import type { Bytes, Compact, Option, u32 } from '@polkadot/types-codec';
-import type { IOption, ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Compact, Option, u32 } from '@polkadot/types_codec';
+import type { IOption, ITuple } from '@polkadot/types_codec/types';
 import type { AccountId, BlockAttestations, SessionKeys7 } from './interfaces/index.js';
 
 import { assert } from '@polkadot/util';

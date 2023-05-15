@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Range, U32 } from '@polkadot/types-codec';
+import { Range, U32 } from '@polkadot/types_codec';
 
 describe('Range', (): void => {
   const registry = new TypeRegistry();

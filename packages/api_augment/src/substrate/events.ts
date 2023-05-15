@@ -3,11 +3,11 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/events';
+import '@polkadot/api_base/types/events';
 
-import type { ApiTypes, AugmentedEvent } from '@polkadot/api-base/types';
-import type { Bytes, Null, Option, Result, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { ApiTypes, AugmentedEvent } from '@polkadot/api_base/types';
+import type { Bytes, Null, Option, Result, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { AccountId32, H256, Perbill, Perquintill } from '@polkadot/types/interfaces/runtime';
 import type { FrameSupportDispatchDispatchInfo, FrameSupportDispatchPostDispatchInfo, FrameSupportMessagesProcessMessageError, FrameSupportPreimagesBounded, FrameSupportTokensMiscBalanceStatus, KitchensinkRuntimeProxyType, PalletAllianceCid, PalletAllianceUnscrupulousItem, PalletContractsOrigin, PalletConvictionVotingTally, PalletCoreFellowshipParamsType, PalletCoreFellowshipWish, PalletDemocracyMetadataOwner, PalletDemocracyVoteAccountVote, PalletDemocracyVoteThreshold, PalletElectionProviderMultiPhaseElectionCompute, PalletElectionProviderMultiPhasePhase, PalletImOnlineSr25519AppSr25519Public, PalletMultisigTimepoint, PalletNftsAttributeNamespace, PalletNftsPalletAttributes, PalletNftsPriceWithDirection, PalletNominationPoolsCommissionChangeRate, PalletNominationPoolsPoolState, PalletRankedCollectiveTally, PalletRankedCollectiveVoteRecord, PalletStakingExposure, PalletStakingForcing, PalletStakingValidatorPrefs, PalletStateTrieMigrationError, PalletStateTrieMigrationMigrationCompute, SpConsensusGrandpaAppPublic, SpNposElectionsElectionScore, SpRuntimeDispatchError, SpRuntimeDispatchErrorWithPostInfo, SpStatementStoreStatement, SpWeightsWeightV2Weight } from '@polkadot/types/lookup';
 

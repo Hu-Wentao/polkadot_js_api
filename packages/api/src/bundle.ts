@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import '@polkadot/rpc-augment';
+import '@polkadot/rpc_augment';
 
 // all external
 export { Keyring } from '@polkadot/keyring';

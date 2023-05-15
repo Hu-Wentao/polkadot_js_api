@@ -5,7 +5,7 @@ import type { Observable } from 'rxjs';
 import type { BalanceOf } from '@polkadot/types/interfaces';
 import type { PalletSocietyBid, PalletSocietyBidKind } from '@polkadot/types/lookup';
 import type { ITuple } from '@polkadot/types/types';
-import type { Option } from '@polkadot/types-codec';
+import type { Option } from '@polkadot/types_codec';
 import type { DeriveApi, DeriveSocietyCandidate } from '../types.js';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

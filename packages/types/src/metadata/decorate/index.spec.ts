@@ -3,8 +3,8 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import { u32 } from '@polkadot/types-codec';
-import json from '@polkadot/types-support/metadata/static-substrate';
+import { u32 } from '@polkadot/types_codec';
+import json from '@polkadot/types_support/metadata/static_substrate';
 import { u8aToHex } from '@polkadot/util';
 
 import { TypeRegistry } from '../../create/index.js';

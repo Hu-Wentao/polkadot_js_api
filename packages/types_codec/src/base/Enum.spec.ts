@@ -3,10 +3,10 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Registry } from '@polkadot/types_codec/types';
 
 import { TypeRegistry } from '@polkadot/types';
-import { Enum, Null, Text, U32 } from '@polkadot/types-codec';
+import { Enum, Null, Text, U32 } from '@polkadot/types_codec';
 import { u8aToHex } from '@polkadot/util';
 
 import { perf } from '../test/performance.js';

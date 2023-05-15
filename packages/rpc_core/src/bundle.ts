@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observer } from 'rxjs';
-import type { ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc-provider/types';
+import type { ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc_provider/types';
 import type { StorageKey, Vec } from '@polkadot/types';
 import type { Hash } from '@polkadot/types/interfaces';
 import type { AnyJson, AnyNumber, Codec, DefinitionRpc, DefinitionRpcExt, DefinitionRpcSub, Registry } from '@polkadot/types/types';
@@ -82,8 +82,8 @@ function isTreatAsHex (key: StorageKey): boolean {
  * <BR>
  *
  * ```javascript
- * import Rpc from '@polkadot/rpc-core';
- * import { WsProvider } from '@polkadot/rpc-provider/ws';
+ * import Rpc from '@polkadot/rpc_core';
+ * import { WsProvider } from '@polkadot/rpc_provider/ws';
  *
  * const provider = new WsProvider('ws://127.0.0.1:9944');
  * const rpc = new Rpc(provider);

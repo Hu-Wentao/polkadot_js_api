@@ -3,12 +3,12 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/api-base/types/submittable';
+import '@polkadot/api_base/types/submittable';
 
-import type { ApiTypes, AugmentedSubmittable, SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@polkadot/api-base/types';
+import type { ApiTypes, AugmentedSubmittable, SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@polkadot/api_base/types';
 import type { Data } from '@polkadot/types';
-import type { Bytes, Compact, Option, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { AnyNumber, IMethod, ITuple } from '@polkadot/types-codec/types';
+import type { Bytes, Compact, Option, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { AnyNumber, IMethod, ITuple } from '@polkadot/types_codec/types';
 import type { EthereumAddress } from '@polkadot/types/interfaces/eth';
 import type { AccountId32, Call, H256, MultiAddress, Perbill, Percent } from '@polkadot/types/interfaces/runtime';
 import type { FrameSupportPreimagesBounded, FrameSupportScheduleDispatchTime, PalletConvictionVotingConviction, PalletConvictionVotingVoteAccountVote, PalletDemocracyConviction, PalletDemocracyMetadataOwner, PalletDemocracyVoteAccountVote, PalletElectionProviderMultiPhaseRawSolution, PalletElectionProviderMultiPhaseSolutionOrSnapshotSize, PalletElectionsPhragmenRenouncing, PalletIdentityBitFlags, PalletIdentityIdentityInfo, PalletIdentityJudgement, PalletImOnlineHeartbeat, PalletImOnlineSr25519AppSr25519Signature, PalletMultisigTimepoint, PalletNominationPoolsBondExtra, PalletNominationPoolsClaimPermission, PalletNominationPoolsCommissionChangeRate, PalletNominationPoolsConfigOpAccountId32, PalletNominationPoolsConfigOpPerbill, PalletNominationPoolsConfigOpU128, PalletNominationPoolsConfigOpU32, PalletNominationPoolsPoolState, PalletStakingPalletConfigOpPerbill, PalletStakingPalletConfigOpPercent, PalletStakingPalletConfigOpU128, PalletStakingPalletConfigOpU32, PalletStakingRewardDestination, PalletStakingValidatorPrefs, PalletVestingVestingInfo, PolkadotParachainPrimitivesHrmpChannelId, PolkadotPrimitivesV4ExecutorParams, PolkadotPrimitivesV4InherentData, PolkadotPrimitivesV4PvfCheckStatement, PolkadotPrimitivesV4ValidatorAppSignature, PolkadotPrimitivesVstagingAsyncBackingParams, PolkadotRuntimeCommonClaimsEcdsaSignature, PolkadotRuntimeCommonClaimsStatementKind, PolkadotRuntimeOriginCaller, PolkadotRuntimeParachainsDisputesSlashingDisputeProof, PolkadotRuntimeProxyType, PolkadotRuntimeSessionKeys, SpConsensusBabeDigestsNextConfigDescriptor, SpConsensusGrandpaEquivocationProof, SpConsensusSlotsEquivocationProof, SpNposElectionsElectionScore, SpNposElectionsSupport, SpRuntimeMultiSignature, SpRuntimeMultiSigner, SpSessionMembershipProof, SpWeightsWeightV2Weight, XcmV3MultiLocation, XcmV3WeightLimit, XcmVersionedMultiAssets, XcmVersionedMultiLocation, XcmVersionedXcm } from '@polkadot/types/lookup';

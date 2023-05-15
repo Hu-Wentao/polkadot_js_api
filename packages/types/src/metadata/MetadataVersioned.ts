@@ -1,12 +1,12 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson } from '@polkadot/types-codec/types';
+import type { AnyJson } from '@polkadot/types_codec/types';
 import type { HexString } from '@polkadot/util/types';
 import type { MetadataAll, MetadataLatest, MetadataV9, MetadataV10, MetadataV11, MetadataV12, MetadataV13, MetadataV14, MetadataV15 } from '../interfaces/metadata/index.js';
 import type { Registry } from '../types/index.js';
 
-import { Struct } from '@polkadot/types-codec';
+import { Struct } from '@polkadot/types_codec';
 
 import { getUniqTypes, toCallsOnly } from './util/index.js';
 import { toV10 } from './v9/toV10.js';

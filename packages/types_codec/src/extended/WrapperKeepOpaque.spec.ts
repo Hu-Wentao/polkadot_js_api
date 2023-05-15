@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Bytes, Raw, u32, WrapperKeepOpaque } from '@polkadot/types-codec';
+import { Bytes, Raw, u32, WrapperKeepOpaque } from '@polkadot/types_codec';
 
 describe('WrapperKeepOpaque', (): void => {
   const registry = new TypeRegistry();

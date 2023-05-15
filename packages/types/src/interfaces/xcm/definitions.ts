@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types/index.js';
 
-import { mapXcmTypes } from '@polkadot/types-create';
+import { mapXcmTypes } from '@polkadot/types_create';
 
 import { v0 } from './v0.js';
 import { v1 } from './v1.js';

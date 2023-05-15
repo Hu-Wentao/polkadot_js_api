@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson, AnyTuple, AnyU8a, ArgsDef, IMethod, Inspect } from '@polkadot/types-codec/types';
+import type { AnyJson, AnyTuple, AnyU8a, ArgsDef, IMethod, Inspect } from '@polkadot/types_codec/types';
 import type { HexString } from '@polkadot/util/types';
 import type { EcdsaSignature, Ed25519Signature, ExtrinsicUnknown, ExtrinsicV4, Sr25519Signature } from '../interfaces/extrinsics/index.js';
 import type { FunctionMetadataLatest } from '../interfaces/metadata/index.js';
@@ -10,7 +10,7 @@ import type { CallBase, ExtrinsicPayloadValue, ICompact, IExtrinsic, IKeyringPai
 import type { GenericExtrinsicEra } from './ExtrinsicEra.js';
 import type { ExtrinsicValueV4 } from './v4/Extrinsic.js';
 
-import { AbstractBase } from '@polkadot/types-codec';
+import { AbstractBase } from '@polkadot/types_codec';
 import { compactAddLength, compactFromU8a, compactToU8a, isHex, isU8a, objectProperty, objectSpread, u8aConcat, u8aToHex, u8aToU8a } from '@polkadot/util';
 
 import { EXTRINSIC_VERSION as LATEST_EXTRINSIC_VERSION } from './v4/Extrinsic.js';

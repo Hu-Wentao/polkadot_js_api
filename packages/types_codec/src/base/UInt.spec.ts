@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { UInt } from '@polkadot/types-codec';
+import { UInt } from '@polkadot/types_codec';
 import { BN, BN_TWO, isBn } from '@polkadot/util';
 
 import { perf } from '../test/performance.js';

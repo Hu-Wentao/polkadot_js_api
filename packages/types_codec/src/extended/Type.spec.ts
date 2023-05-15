@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { Text, Type } from '@polkadot/types-codec';
+import { Text, Type } from '@polkadot/types_codec';
 import { stringToU8a, u8aConcat } from '@polkadot/util';
 
 describe('Type', (): void => {

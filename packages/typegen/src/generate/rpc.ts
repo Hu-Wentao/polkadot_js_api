@@ -8,7 +8,7 @@ import type { ExtraTypes } from './types.js';
 import Handlebars from 'handlebars';
 
 import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import staticSubstrate from '@polkadot/types-support/metadata/static-substrate';
+import staticSubstrate from '@polkadot/types_support/metadata/static_substrate';
 
 import { createImports, formatType, getSimilarTypes, initMeta, readTemplate, setImports, writeFile } from '../util/index.js';
 

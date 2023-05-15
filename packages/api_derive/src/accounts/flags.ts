@@ -5,7 +5,7 @@ import type { Observable } from 'rxjs';
 import type { AccountId, Address, Balance } from '@polkadot/types/interfaces';
 import type{ PalletElectionsPhragmenSeatHolder } from '@polkadot/types/lookup';
 import type { Codec } from '@polkadot/types/types';
-import type { Option } from '@polkadot/types-codec';
+import type { Option } from '@polkadot/types_codec';
 import type { DeriveAccountFlags, DeriveApi } from '../types.js';
 
 import { map, of } from 'rxjs';

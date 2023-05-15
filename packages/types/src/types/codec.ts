@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec } from '@polkadot/types-codec/types';
+import type { Codec } from '@polkadot/types_codec/types';
 
 export type { AnyFunction, AnyJson, AnyNumber, AnyString, AnyTuple, AnyU8a, ArgsDef, BareOpts, Codec, CodecClass, CodecTo, CodecClass as Constructor, Inspect } from '@polkadot/types-codec/types';
 

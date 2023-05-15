@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson, AnyTuple, Registry } from '@polkadot/types-codec/types';
+import type { AnyJson, AnyTuple, Registry } from '@polkadot/types_codec/types';
 import type { Call, FunctionMetadataLatest } from '../../../interfaces/index.js';
 import type { CallFunction, IMethod } from '../../../types/index.js';
 

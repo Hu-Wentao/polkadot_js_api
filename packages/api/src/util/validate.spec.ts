@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { decorateStorage, Metadata, TypeRegistry } from '@polkadot/types';
-import metaStatic from '@polkadot/types-support/metadata/static-substrate';
+import metaStatic from '@polkadot/types_support/metadata/static_substrate';
 
 import { extractStorageArgs } from './validate.js';
 

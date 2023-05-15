@@ -1,12 +1,12 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Vec } from '@polkadot/types-codec';
-import type { AnyNumber, AnyU8a, IU8a, Registry } from '@polkadot/types-codec/types';
+import type { Vec } from '@polkadot/types_codec';
+import type { AnyNumber, AnyU8a, IU8a, Registry } from '@polkadot/types_codec/types';
 import type { GenericExtrinsic } from '../extrinsic/Extrinsic.js';
 import type { Digest, DigestItem, Header } from '../interfaces/runtime/index.js';
 
-import { Struct } from '@polkadot/types-codec';
+import { Struct } from '@polkadot/types_codec';
 
 export interface HeaderValue {
   digest?: Digest | { logs: DigestItem[] | string[] };

@@ -3,11 +3,11 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/types-codec/types/registry';
-import '@polkadot/types-create/types/augmentRegistry';
+import '@polkadot/types_codec/types/registry';
+import '@polkadot/types_create/types/augmentRegistry';
 
-import type { AnyString, Codec, CodecClass, LookupString } from '@polkadot/types-codec/types';
-import type { TypeDef } from '@polkadot/types-create/types';
+import type { AnyString, Codec, CodecClass, LookupString } from '@polkadot/types_codec/types';
+import type { TypeDef } from '@polkadot/types_create/types';
 import type { ExtDef } from '../extrinsic/signedExtensions/types.js';
 import type { MetadataLatest } from '../interfaces/metadata/index.js';
 import type { SiField, SiLookupTypeId } from '../interfaces/scaleInfo/index.js';

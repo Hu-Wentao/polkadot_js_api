@@ -5,11 +5,11 @@
 
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-import type { Codec, CodecClass } from '@polkadot/types-codec/types';
+import type { Codec, CodecClass } from '@polkadot/types_codec/types';
 
-import { DoNotConstruct, Struct, Text, U32 } from '@polkadot/types-codec';
+import { DoNotConstruct, Struct, Text, U32 } from '@polkadot/types_codec';
 import { isChildClass, u8aToU8a } from '@polkadot/util';
-import { keccakAsU8a } from '@polkadot/util-crypto';
+import { keccakAsU8a } from '@polkadot/util_crypto';
 
 import { TypeRegistry } from './index.js';
 

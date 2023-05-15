@@ -1,8 +1,8 @@
 // Copyright 2017-2023 @polkadot/types-create authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Option, Text } from '@polkadot/types-codec';
-import type { ICompact, INumber, LookupString } from '@polkadot/types-codec/types';
+import type { Option, Text } from '@polkadot/types_codec';
+import type { ICompact, INumber, LookupString } from '@polkadot/types_codec/types';
 import type { TypeDef } from './types.js';
 
 // A simplified SiType without the need for an interface import

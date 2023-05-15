@@ -1,11 +1,11 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyNumber, Registry } from '@polkadot/types-codec/types';
+import type { AnyNumber, Registry } from '@polkadot/types_codec/types';
 
-import { u32 } from '@polkadot/types-codec';
+import { u32 } from '@polkadot/types_codec';
 import { BN, bnToBn, isBigInt, isBn, isHex, isNumber, isU8a } from '@polkadot/util';
-import { decodeAddress, encodeAddress } from '@polkadot/util-crypto';
+import { decodeAddress, encodeAddress } from '@polkadot/util_crypto';
 
 const PREFIX_1BYTE = 0xef;
 const PREFIX_2BYTE = 0xfc;

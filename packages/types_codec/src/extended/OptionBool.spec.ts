@@ -4,7 +4,7 @@
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
 import { TypeRegistry } from '@polkadot/types';
-import { OptionBool } from '@polkadot/types-codec';
+import { OptionBool } from '@polkadot/types_codec';
 
 describe('OptionBool', (): void => {
   const registry = new TypeRegistry();

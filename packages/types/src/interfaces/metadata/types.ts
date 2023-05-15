@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 import type { PortableRegistry } from '@polkadot/types';
-import type { Bytes, Enum, Option, Struct, Text, Type, Vec, WrapperOpaque, bool, u8 } from '@polkadot/types-codec';
+import type { Bytes, Enum, Option, Struct, Text, Type, Vec, WrapperOpaque, bool, u8 } from '@polkadot/types_codec';
 import type { Si1Field, Si1LookupTypeId, Si1Type, SiLookupTypeId } from '@polkadot/types/interfaces/scaleInfo';
 
 /** @name ErrorMetadataLatest */

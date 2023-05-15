@@ -6,8 +6,8 @@
 import '@polkadot/types/lookup';
 
 import type { Data } from '@polkadot/types';
-import type { BTreeMap, Bytes, Compact, Enum, Null, Option, Result, Set, Struct, Text, U8aFixed, Vec, bool, i64, u128, u16, u32, u64, u8 } from '@polkadot/types-codec';
-import type { ITuple } from '@polkadot/types-codec/types';
+import type { BTreeMap, Bytes, Compact, Enum, Null, Option, Result, Set, Struct, Text, U8aFixed, Vec, bool, i64, u128, u16, u32, u64, u8 } from '@polkadot/types_codec';
+import type { ITuple } from '@polkadot/types_codec/types';
 import type { Vote } from '@polkadot/types/interfaces/elections';
 import type { OpaqueMultiaddr, OpaquePeerId } from '@polkadot/types/interfaces/imOnline';
 import type { AccountId32, Call, H256, MultiAddress, PerU16, Perbill, Percent, Perquintill } from '@polkadot/types/interfaces/runtime';

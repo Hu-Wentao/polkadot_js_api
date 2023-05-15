@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson, AnyNumber, AnyTuple, AnyU8a, Codec } from '@polkadot/types-codec/types';
+import type { AnyJson, AnyNumber, AnyTuple, AnyU8a, Codec } from '@polkadot/types_codec/types';
 import type { HexString } from '@polkadot/util/types';
 import type { ExtrinsicStatus } from '../interfaces/author/index.js';
 import type { EcdsaSignature, Ed25519Signature, Sr25519Signature } from '../interfaces/extrinsics/index.js';

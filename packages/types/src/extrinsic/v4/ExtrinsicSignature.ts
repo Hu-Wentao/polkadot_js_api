@@ -7,7 +7,7 @@ import type { Address, Call } from '../../interfaces/runtime/index.js';
 import type { ExtrinsicPayloadValue, ICompact, IExtrinsicSignature, IKeyringPair, INumber, Registry, SignatureOptions } from '../../types/index.js';
 import type { ExtrinsicSignatureOptions } from '../types.js';
 
-import { Struct } from '@polkadot/types-codec';
+import { Struct } from '@polkadot/types_codec';
 import { isU8a, isUndefined, objectProperties, objectSpread, stringify, u8aToHex } from '@polkadot/util';
 
 import { EMPTY_U8A, IMMORTAL_ERA } from '../constants.js';

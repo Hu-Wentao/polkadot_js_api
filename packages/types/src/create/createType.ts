@@ -1,10 +1,10 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec, Registry } from '@polkadot/types-codec/types';
+import type { Codec, Registry } from '@polkadot/types_codec/types';
 import type { DetectCodec } from '../types/index.js';
 
-import { createTypeUnsafe } from '@polkadot/types-create';
+import { createTypeUnsafe } from '@polkadot/types_create';
 
 /**
  * Create an instance of a `type` with a given `params`.

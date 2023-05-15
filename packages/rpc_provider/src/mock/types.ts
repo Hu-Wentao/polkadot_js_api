@@ -1,7 +1,7 @@
 // Copyright 2017-2023 @polkadot/rpc-provider authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Server } from 'mock-socket';
+import type { Server } from 'mock_socket';
 
 export type Global = typeof globalThis & {
   WebSocket: typeof WebSocket;

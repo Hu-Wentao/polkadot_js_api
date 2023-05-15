@@ -3,7 +3,7 @@
 
 /// <reference types="@polkadot/dev-test/globals.d.ts" />
 
-import metadataStatic from '@polkadot/types-support/metadata/static-substrate';
+import metadataStatic from '@polkadot/types_support/metadata/static_substrate';
 
 import { TypeRegistry } from '../create/index.js';
 import { Metadata } from '../metadata/index.js';

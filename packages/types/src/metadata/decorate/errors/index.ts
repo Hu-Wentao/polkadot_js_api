@@ -1,8 +1,8 @@
 // Copyright 2017-2023 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Text, u8 } from '@polkadot/types-codec';
-import type { Registry } from '@polkadot/types-codec/types';
+import type { Text, u8 } from '@polkadot/types_codec';
+import type { Registry } from '@polkadot/types_codec/types';
 import type { DispatchErrorModule, DispatchErrorModuleU8, DispatchErrorModuleU8a, MetadataLatest, SiField, SiVariant } from '../../../interfaces/index.js';
 import type { PortableRegistry } from '../../../metadata/index.js';
 import type { Errors, IsError } from '../types.js';

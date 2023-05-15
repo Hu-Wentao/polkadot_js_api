@@ -3,12 +3,12 @@
 
 // import type lookup before we augment - in some environments
 // this is required to allow for ambient/previous definitions
-import '@polkadot/rpc-core/types/jsonrpc';
+import '@polkadot/rpc_core/types/jsonrpc';
 
-import type { AugmentedRpc } from '@polkadot/rpc-core/types';
+import type { AugmentedRpc } from '@polkadot/rpc_core/types';
 import type { Metadata, StorageKey } from '@polkadot/types';
-import type { Bytes, HashMap, Json, Null, Option, Text, U256, U64, Vec, bool, f64, u32, u64 } from '@polkadot/types-codec';
-import type { AnyNumber, Codec } from '@polkadot/types-codec/types';
+import type { Bytes, HashMap, Json, Null, Option, Text, U256, U64, Vec, bool, f64, u32, u64 } from '@polkadot/types_codec';
+import type { AnyNumber, Codec } from '@polkadot/types_codec/types';
 import type { ExtrinsicOrHash, ExtrinsicStatus } from '@polkadot/types/interfaces/author';
 import type { EpochAuthorship } from '@polkadot/types/interfaces/babe';
 import type { BeefySignedCommitment } from '@polkadot/types/interfaces/beefy';
