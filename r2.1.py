@@ -1,16 +1,27 @@
-# ### 脚本#/src->/lib/src:
-# 可能不必要
-# ```python
-import os
-import shutil
+"""
+创建dart项目
+"""
 
-# 获取当前工作目录
-current_dir = os.getcwd()
+# 递归遍历当前目录下所有文件夹及子文件夹，
+# 调用find_package_json函数查找是否存在名为package.json的文件。
+#   如果找到，则调用execute_dart_command函数在该路径下执行命令。
+# ```python
+# Flutter 1.22 dart路径
+# /Users/huwentao/fvm/versions/1.22.6/bin/dart
+
+import os
+
+def execute_command(path):
+    dir = os.path.dirname(path)
+    base = os.path.basename(path)
+    os.chdir(dir)
+    print("path# {}, base# {} ".format(path, base))
+    os.system("/Users/huwentao/fvm/versions/1.22.6/bin/dart create " +
+              base+" --force -t package-simple")
 
 
 def find_packages(path):
     """
-    从2.0复制得到; 用于查询路径下所有包含package.json的文件夹;返回绝对路径list[str];
     Finds all directories containing a package.json file in the specified path.
     :param path: The path to search for package.json files.
     :return: A list of directory paths containing package.json files.
@@ -21,25 +32,9 @@ def find_packages(path):
             package_directories.append(os.path.abspath(root))
     return package_directories
 
-# 遍历当前目录以及子目录
 
-
-def move_src_to_lib(root: str = './packages'):
-    # 获取 src 文件夹的路径
-    src_path = os.path.join(root, 'src')
-    if not os.path.exists(src_path):
-        return
-    # 获取 lib 文件夹的路径
-    lib_path = os.path.join(root, 'lib', 'src')
-    # 如果 lib 文件夹已经存在，则删除其中所有内容
-    if os.path.exists(lib_path):
-        shutil.rmtree(lib_path)
-    # 将 src 文件夹移动到 lib 文件夹中
-    shutil.move(src_path, lib_path)
-
-
-if __name__ == '__main__':
-    path = './packages'
-    for root in find_packages(path):
+if __name__ == "__main__":
+    dir = './packages'
+    for root in find_packages(dir):
         print("root {}".format(root))
-        move_src_to_lib(root=root)
+        execute_command(root)
